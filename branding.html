@@ -1,153 +1,396 @@
-<!DOCTYPE HTML>
-<!--
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exhibit — Photography Gallery</title>
+  <meta name="description" content="A minimalist photography portfolio gallery template." />
+
+  <!--
+Tooplate 2160 Exhibit Studio
+https://www.tooplate.com/view/2160-exhibit-studio
+Free HTML CSS Template
 -->
-<html>
-	<head>
-		<title>Brand & Graphic | Eye Link Art Design</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="multiverse/css/main.css" />
-		<noscript><link rel="stylesheet" href="multiverse/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="exhibit/tooplate-exhibit-style.css" />
+</head>
+<body>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html"><strong>Eye Link</strong> Art Design</a></h1>
-						<nav>
-							<ul>
-								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
-							</ul>
-						</nav>
-					</header>
+  <!-- ═══════════════════════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main">
 
-				<!-- Main -->
-					<div id="main">
-						<article class="thumb">
-							<a href="multiverse/images/fulls/01.jpg" class="image"><img src="multiverse/images/thumbs/01.jpg" alt="" /></a>
-							<h2>Magna feugiat lorem</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/02.jpg" class="image"><img src="multiverse/images/thumbs/02.jpg" alt="" /></a>
-							<h2>Nisl adipiscing</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/03.jpg" class="image"><img src="multiverse/images/thumbs/03.jpg" alt="" /></a>
-							<h2>Tempus aliquam veroeros</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/04.jpg" class="image"><img src="multiverse/images/thumbs/04.jpg" alt="" /></a>
-							<h2>Aliquam ipsum sed dolore</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/05.jpg" class="image"><img src="multiverse/images/thumbs/05.jpg" alt="" /></a>
-							<h2>Cursis aliquam nisl</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/06.jpg" class="image"><img src="multiverse/images/thumbs/06.jpg" alt="" /></a>
-							<h2>Sed consequat phasellus</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/07.jpg" class="image"><img src="multiverse/images/thumbs/07.jpg" alt="" /></a>
-							<h2>Mauris id tellus arcu</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/08.jpg" class="image"><img src="multiverse/images/thumbs/08.jpg" alt="" /></a>
-							<h2>Nunc vehicula id nulla</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/09.jpg" class="image"><img src="multiverse/images/thumbs/09.jpg" alt="" /></a>
-							<h2>Neque et faucibus viverra</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/10.jpg" class="image"><img src="multiverse/images/thumbs/10.jpg" alt="" /></a>
-							<h2>Mattis ante fermentum</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/11.jpg" class="image"><img src="multiverse/images/thumbs/11.jpg" alt="" /></a>
-							<h2>Sed ac elementum arcu</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/12.jpg" class="image"><img src="multiverse/images/thumbs/12.jpg" alt="" /></a>
-							<h2>Vehicula id nulla dignissim</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-					</div>
+    <div class="nav__bar">
 
-				<!-- Footer -->
-					<footer id="footer" class="panel">
-						<div class="inner split">
-							<div>
-								<section>
-									<h2>Magna feugiat sed adipiscing</h2>
-									<p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
-								</section>
-								<section>
-									<h2>Follow me on ...</h2>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</section>
-								<p class="copyright">
-									&copy; Unttled. Design: <a href="http://html5up.net">HTML5 UP</a>.
-								</p>
-							</div>
-							<div>
-								<section>
-									<h2>Get in touch</h2>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="field half">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-											<div class="field">
-												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-							</div>
-						</div>
-					</footer>
+      <!-- ↓ EDIT: Replace with your name or studio name -->
+      <a href="index.html" class="nav__wordmark">
+        EYE LINK <span>/ Art Design</span>
+      </a>
 
-			</div>
+      <!-- ↓ EDIT: Desktop links (visible ≥680px) -->
+      <ul class="nav__links">
+        <li><a href="branding.html" class="nav__link--active">Branding</a></li>
+        <li><a href="packaging.html">Packaging</a></li>
+        <li><a href="print.html">Print &amp; Production</a></li>
+      </ul>
 
-		<!-- Scripts -->
-			<script src="multiverse/js/jquery.min.js"></script>
-			<script src="multiverse/js/jquery.poptrox.min.js"></script>
-			<script src="multiverse/js/browser.min.js"></script>
-			<script src="multiverse/js/breakpoints.min.js"></script>
-			<script src="multiverse/js/util.js"></script>
-			<script src="multiverse/js/main.js"></script>
+      <!-- Hamburger — visible on mobile only, controlled by JS -->
+      <button
+        class="nav__hamburger"
+        id="js-hamburger"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="js-mobile-menu"
+      >
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+      </button>
 
-	</body>
+    </div><!-- /nav__bar -->
+
+    <!-- ↓ EDIT: Mobile menu links (visible <680px, toggled by hamburger) -->
+    <ul class="nav__mobile-menu" id="js-mobile-menu" aria-hidden="true">
+      <li><a href="branding.html" class="nav__link--active">Branding</a></li>
+      <li><a href="packaging.html">Packaging</a></li>
+      <li><a href="print.html">Print &amp; Production</a></li>
+    </ul>
+
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HERO
+       ═══════════════════════════════════════════════════════════════ -->
+<header class="site-hero">
+
+  <p class="hero__tag">Brand &amp; Visual Design</p>
+
+  <h1 class="hero__title">
+    品牌與<br><strong>視覺設計</strong>
+  </h1>
+
+  <div class="hero__meta">
+    <span class="hero__count" id="js-photo-count">
+      Branding Projects
+    </span>
+
+    <div class="hero__rule" aria-hidden="true"></div>
+
+    <p class="hero__desc">
+      從品牌概念、視覺識別到完整應用，建立具有辨識度且一致的品牌形象。
+    </p>
+  </div>
+</header>
+
+<main class="gallery" id="js-gallery" aria-label="Branding portfolio">
+
+<!-- 01 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/01.jpg"
+     data-title="12酵素｜包裝文字設計"
+     data-meta="Packaging Typography">
+  <img src="portfolio/branding/01.jpg" alt="12酵素包裝文字設計" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">12酵素｜包裝文字設計</span>
+    <span class="gallery__caption-meta">Packaging Typography</span>
+  </div>
+</div>
+
+<!-- 02 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/02.jpg"
+     data-title="茶葉包裝・提案 A"
+     data-meta="Packaging Illustration">
+  <img src="portfolio/branding/02.jpg" alt="茶葉包裝提案 A" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">茶葉包裝・提案 A</span>
+    <span class="gallery__caption-meta">Packaging Illustration</span>
+  </div>
+</div>
+
+<!-- 03 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/03.jpg"
+     data-title="茶葉包裝・提案 B"
+     data-meta="Packaging Illustration">
+  <img src="portfolio/branding/03.jpg" alt="茶葉包裝提案 B" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">茶葉包裝・提案 B</span>
+    <span class="gallery__caption-meta">Packaging Illustration</span>
+  </div>
+</div>
+
+<!-- 04 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/04.jpg"
+     data-title="中秋賀卡・柯基木馬插畫"
+     data-meta="Seasonal Illustration">
+  <img src="portfolio/branding/04.jpg" alt="中秋賀卡柯基木馬插畫" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">中秋賀卡・柯基木馬插畫</span>
+    <span class="gallery__caption-meta">Seasonal Illustration</span>
+  </div>
+</div>
+
+<!-- 05 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/05.jpg"
+     data-title="2026年度手冊・封面設計"
+     data-meta="Publication Cover Design">
+  <img src="portfolio/branding/05.jpg" alt="2026年度手冊封面設計" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026年度手冊・封面設計</span>
+    <span class="gallery__caption-meta">Publication Cover Design</span>
+  </div>
+</div>
+
+<!-- 06 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/06.jpg"
+     data-title="2025年度手冊・封面設計"
+     data-meta="Publication Cover Design">
+  <img src="portfolio/branding/06.jpg" alt="2025年度手冊封面設計" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2025年度手冊・封面設計</span>
+    <span class="gallery__caption-meta">Publication Cover Design</span>
+  </div>
+</div>
+
+<!-- 07 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/07.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/07.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 08 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/08.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/08.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 09 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/09.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/09.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 10 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/10.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/10.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 11 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/11.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/11.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 12 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/12.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/12.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 13 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/13.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/13.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 14 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/14.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/14.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 15 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/15.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/15.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 16 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/16.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/16.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 17 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/17.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/17.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 18 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/18.jpg"
+     data-title="2026月曆・柯基插畫系列"
+     data-meta="Calendar Illustration">
+  <img src="portfolio/branding/18.jpg" alt="2026月曆柯基插畫系列" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">2026月曆・柯基插畫系列</span>
+    <span class="gallery__caption-meta">Calendar Illustration</span>
+  </div>
+</div>
+
+<!-- 19 -->
+<div class="gallery__item"
+     data-full="portfolio/branding/19.jpg"
+     data-title="排球運動服・服裝設計"
+     data-meta="Sportswear Design">
+  <img src="portfolio/branding/19.jpg" alt="排球運動服設計" class="gallery__image" loading="lazy" />
+  <div class="gallery__caption">
+    <span class="gallery__caption-title">排球運動服・服裝設計</span>
+    <span class="gallery__caption-meta">Sportswear Design</span>
+  </div>
+</div>
+
+</main>
+  <!-- ═══════════════════════════════════════════════════════════════
+       LIGHTBOX  —  "Lightroom Mode"
+       This element is controlled by JavaScript below.
+       You do not need to edit this HTML.
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="lightbox" id="js-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+
+    <div class="lightbox__bar">
+      <span class="lightbox__counter" id="js-lb-counter" aria-live="polite"></span>
+      <button class="lightbox__close" id="js-lb-close" aria-label="Close photo viewer">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="lightbox__stage">
+
+      <button class="lightbox__nav lightbox__nav--prev" id="js-lb-prev" aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+
+      <!-- ↓ The <img> src is swapped by JS — do not edit src here -->
+      <img src="" alt="" class="lightbox__image" id="js-lb-image" />
+
+      <button class="lightbox__nav lightbox__nav--next" id="js-lb-next" aria-label="Next photo">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div class="lightbox__caption">
+      <p class="lightbox__caption-title" id="js-lb-title"></p>
+      <p class="lightbox__caption-meta"  id="js-lb-meta"></p>
+    </div>
+
+  </div><!-- /LIGHTBOX -->
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+
+    <div>
+      <!-- ↓ EDIT: Replace with your name / studio -->
+      <p class="footer__brand">EYE LINK / Art Design</p>
+      <p class="footer__credit">
+        <br>
+        © 2026 目結藝術設計有限公司（Eye Link Art Design CO., LTD.）All rights reserved.
+      </p>
+    </div>
+
+    <!-- ↓ EDIT: Update links to match your site pages -->
+    <ul class="footer__nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="branding.html">Branding</a></li>
+      <li><a href="packaging.html">Packaging</a></li>
+      <li><a href="print.html">Print &amp; Production</a></li>
+    </ul>
+
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       JAVASCRIPT  —  Lightroom Mode + Filter
+       You do not need to edit this block.
+       ═══════════════════════════════════════════════════════════════ -->
+  <script src="exhibit/tooplate-exhibit-script.js"></script>
+
+</body>
 </html>

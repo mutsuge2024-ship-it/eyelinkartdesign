@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exhibit — Photography Gallery</title>
+  <meta name="description" content="A minimalist photography portfolio gallery template." />
+
+  <!--
+Tooplate 2160 Exhibit Studio
+https://www.tooplate.com/view/2160-exhibit-studio
+Free HTML CSS Template
+-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="exhibit/tooplate-exhibit-style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main">
+
+    <div class="nav__bar">
+
+      <!-- ↓ EDIT: Replace with your name or studio name -->
+      <a href="index.html" class="nav__wordmark">
+        EYE LINK <span>/ Art Design</span>
+      </a>
+
+      <!-- ↓ EDIT: Desktop links (visible ≥680px) -->
+      <ul class="nav__links">
+        <li><a href="branding.html">Branding</a></li>
+        <li><a href="packaging.html">Packaging</a></li>
+        <li><a href="print.html" class="nav__link--active">Print &amp; Production</a></li>
+      </ul>
+
+      <!-- Hamburger — visible on mobile only, controlled by JS -->
+      <button
+        class="nav__hamburger"
+        id="js-hamburger"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="js-mobile-menu"
+      >
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+      </button>
+
+    </div><!-- /nav__bar -->
+
+    <!-- ↓ EDIT: Mobile menu links (visible <680px, toggled by hamburger) -->
+    <ul class="nav__mobile-menu" id="js-mobile-menu" aria-hidden="true">
+      <li><a href="branding.html">Branding</a></li>
+      <li><a href="packaging.html">Packaging</a></li>
+      <li><a href="print.html" class="nav__link--active">Print &amp; Production</a></li>
+    </ul>
+
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HERO
+       ═══════════════════════════════════════════════════════════════ -->
+<header class="site-hero">
+
+  <p class="hero__tag">Print &amp; Production</p>
+
+  <h1 class="hero__title">
+    印刷<strong>製作</strong>
+  </h1>
+
+  <div class="hero__meta">
+    <span class="hero__count" id="js-photo-count">
+      Production Projects
+    </span>
+
+    <div class="hero__rule" aria-hidden="true"></div>
+
+    <p class="hero__desc">
+      從設計檔案到實際成品，參與印刷確認與製作流程，確保設計完整落地。
+    </p>
+  </div>
+</header>
+
+<main class="print-cases" aria-label="Print & Production portfolio">
+
+
+  <!-- ========================================
+       CASE 01｜印刷製作
+       ======================================== -->
+  <section class="print-case">
+
+    <header class="print-case__header">
+      <h2 class="print-case__title">印刷確認</h2>
+      <p class="print-case__meta">Print Inspection</p>
+      <p class="print-case__desc">
+        從設計檔案到實際印件，確認色彩、細節與整體視覺呈現。
+      </p>
+    </header>
+
+    <div class="print-case__gallery">
+
+      <div class="print-case__item print-case__item--large"
+           data-full="portfolio/print/01.jpg">
+        <img src="portfolio/print/01.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/02.jpg">
+        <img src="portfolio/print/02.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/03.jpg">
+        <img src="portfolio/print/03.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/04.jpg">
+        <img src="portfolio/print/04.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/05.jpg">
+        <img src="portfolio/print/05.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/06.jpg">
+        <img src="portfolio/print/06.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/07.jpg">
+        <img src="portfolio/print/07.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/08.jpg">
+        <img src="portfolio/print/08.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/09.jpg">
+        <img src="portfolio/print/09.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/10.jpg">
+        <img src="portfolio/print/10.jpg"
+             alt="印刷製作現場"
+             loading="lazy" />
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================================
+       CASE 02｜成品製作
+       ======================================== -->
+  <section class="print-case">
+
+    <header class="print-case__header">
+      <h2 class="print-case__title">成品製作</h2>
+      <p class="print-case__meta">Production</p>
+      <p class="print-case__desc">
+        實際檢視完成品，確認印刷、加工與整體製作效果。
+      </p>
+    </header>
+
+    <div class="print-case__gallery">
+
+      <div class="print-case__item print-case__item--large"
+           data-full="portfolio/print/11.jpg">
+        <img src="portfolio/print/11.jpg"
+             alt="成品製作"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/12.jpg">
+        <img src="portfolio/print/12.jpg"
+             alt="成品製作"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/13.jpg">
+        <img src="portfolio/print/13.jpg"
+             alt="成品製作"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/14.jpg">
+        <img src="portfolio/print/14.jpg"
+             alt="成品製作"
+             loading="lazy" />
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================================
+       CASE 03｜印刷與品質確認
+       ======================================== -->
+  <section class="print-case">
+
+    <header class="print-case__header">
+      <h2 class="print-case__title">印刷與品質確認</h2>
+      <p class="print-case__meta">Print &amp; Quality Control</p>
+      <p class="print-case__desc">
+        於製作現場確認印刷品質與最終成品，確保設計完整落地。
+      </p>
+    </header>
+
+    <div class="print-case__gallery">
+
+      <div class="print-case__item print-case__item--large"
+           data-full="portfolio/print/15.jpg">
+        <img src="portfolio/print/15.jpg"
+             alt="印刷與品質確認"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/16.jpg">
+        <img src="portfolio/print/16.jpg"
+             alt="印刷與品質確認"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/17.jpg">
+        <img src="portfolio/print/17.jpg"
+             alt="印刷與品質確認"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/18.jpg">
+        <img src="portfolio/print/18.jpg"
+             alt="印刷與品質確認"
+             loading="lazy" />
+      </div>
+
+      <div class="print-case__item"
+           data-full="portfolio/print/19.jpg">
+        <img src="portfolio/print/19.jpg"
+             alt="印刷與品質確認"
+             loading="lazy" />
+      </div>
+
+    </div>
+
+  </section>
+
+
+</main>
+  <!-- ═══════════════════════════════════════════════════════════════
+       LIGHTBOX  —  "Lightroom Mode"
+       This element is controlled by JavaScript below.
+       You do not need to edit this HTML.
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="lightbox" id="js-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+
+    <div class="lightbox__bar">
+      <span class="lightbox__counter" id="js-lb-counter" aria-live="polite"></span>
+      <button class="lightbox__close" id="js-lb-close" aria-label="Close photo viewer">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="lightbox__stage">
+
+      <button class="lightbox__nav lightbox__nav--prev" id="js-lb-prev" aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+
+      <!-- ↓ The <img> src is swapped by JS — do not edit src here -->
+      <img src="" alt="" class="lightbox__image" id="js-lb-image" />
+
+      <button class="lightbox__nav lightbox__nav--next" id="js-lb-next" aria-label="Next photo">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div class="lightbox__caption">
+      <p class="lightbox__caption-title" id="js-lb-title"></p>
+      <p class="lightbox__caption-meta"  id="js-lb-meta"></p>
+    </div>
+
+  </div><!-- /LIGHTBOX -->
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+
+    <div>
+      <!-- ↓ EDIT: Replace with your name / studio -->
+      <p class="footer__brand">EYE LINK / Art Design</p>
+      <p class="footer__credit">
+        <br>
+        © 2026 目結藝術設計有限公司（Eye Link Art Design CO., LTD.）All rights reserved.
+      </p>
+    </div>
+
+    <!-- ↓ EDIT: Update links to match your site pages -->
+    <ul class="footer__nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="branding.html">Branding</a></li>
+      <li><a href="packaging.html">Packaging</a></li>
+      <li><a href="print.html">Print &amp; Production</a></li>
+    </ul>
+
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       JAVASCRIPT  —  Lightroom Mode + Filter
+       You do not need to edit this block.
+       ═══════════════════════════════════════════════════════════════ -->
+  <script src="exhibit/tooplate-exhibit-script.js"></script>
+
+</body>
+</html>

@@ -1,153 +1,504 @@
-<!DOCTYPE HTML>
-<!--
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exhibit — Photography Gallery</title>
+  <meta name="description" content="A minimalist photography portfolio gallery template." />
+
+  <!--
+Tooplate 2160 Exhibit Studio
+https://www.tooplate.com/view/2160-exhibit-studio
+Free HTML CSS Template
 -->
-<html>
-	<head>
-		<title>Brand & Graphic | Eye Link Art Design</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="multiverse/css/main.css" />
-		<noscript><link rel="stylesheet" href="multiverse/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="exhibit/tooplate-exhibit-style.css" />
+</head>
+<body>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html"><strong>Eye Link</strong> Art Design</a></h1>
-						<nav>
-							<ul>
-								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
-							</ul>
-						</nav>
-					</header>
+  <!-- ═══════════════════════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main">
 
-				<!-- Main -->
-					<div id="main">
-						<article class="thumb">
-							<a href="multiverse/images/fulls/01.jpg" class="image"><img src="multiverse/images/thumbs/01.jpg" alt="" /></a>
-							<h2>Magna feugiat lorem</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/02.jpg" class="image"><img src="multiverse/images/thumbs/02.jpg" alt="" /></a>
-							<h2>Nisl adipiscing</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/03.jpg" class="image"><img src="multiverse/images/thumbs/03.jpg" alt="" /></a>
-							<h2>Tempus aliquam veroeros</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/04.jpg" class="image"><img src="multiverse/images/thumbs/04.jpg" alt="" /></a>
-							<h2>Aliquam ipsum sed dolore</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/05.jpg" class="image"><img src="multiverse/images/thumbs/05.jpg" alt="" /></a>
-							<h2>Cursis aliquam nisl</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/06.jpg" class="image"><img src="multiverse/images/thumbs/06.jpg" alt="" /></a>
-							<h2>Sed consequat phasellus</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/07.jpg" class="image"><img src="multiverse/images/thumbs/07.jpg" alt="" /></a>
-							<h2>Mauris id tellus arcu</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/08.jpg" class="image"><img src="multiverse/images/thumbs/08.jpg" alt="" /></a>
-							<h2>Nunc vehicula id nulla</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/09.jpg" class="image"><img src="multiverse/images/thumbs/09.jpg" alt="" /></a>
-							<h2>Neque et faucibus viverra</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/10.jpg" class="image"><img src="multiverse/images/thumbs/10.jpg" alt="" /></a>
-							<h2>Mattis ante fermentum</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/11.jpg" class="image"><img src="multiverse/images/thumbs/11.jpg" alt="" /></a>
-							<h2>Sed ac elementum arcu</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-						<article class="thumb">
-							<a href="multiverse/images/fulls/12.jpg" class="image"><img src="multiverse/images/thumbs/12.jpg" alt="" /></a>
-							<h2>Vehicula id nulla dignissim</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
-					</div>
+    <div class="nav__bar">
 
-				<!-- Footer -->
-					<footer id="footer" class="panel">
-						<div class="inner split">
-							<div>
-								<section>
-									<h2>Magna feugiat sed adipiscing</h2>
-									<p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
-								</section>
-								<section>
-									<h2>Follow me on ...</h2>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</section>
-								<p class="copyright">
-									&copy; Unttled. Design: <a href="http://html5up.net">HTML5 UP</a>.
-								</p>
-							</div>
-							<div>
-								<section>
-									<h2>Get in touch</h2>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="field half">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-											<div class="field">
-												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-							</div>
-						</div>
-					</footer>
+      <!-- ↓ EDIT: Replace with your name or studio name -->
+      <a href="index.html" class="nav__wordmark">
+        EYE LINK <span>/ Art Design</span>
+      </a>
 
-			</div>
+      <!-- ↓ EDIT: Desktop links (visible ≥680px) -->
+      <ul class="nav__links">
+        <li><a href="branding.html">Branding</a></li>
+        <li><a href="packaging.html" class="nav__link--active">Packaging</a></li>
+        <li><a href="print.html">Print &amp; Production</a></li>
+      </ul>
 
-		<!-- Scripts -->
-			<script src="multiverse/js/jquery.min.js"></script>
-			<script src="multiverse/js/jquery.poptrox.min.js"></script>
-			<script src="multiverse/js/browser.min.js"></script>
-			<script src="multiverse/js/breakpoints.min.js"></script>
-			<script src="multiverse/js/util.js"></script>
-			<script src="multiverse/js/main.js"></script>
+      <!-- Hamburger — visible on mobile only, controlled by JS -->
+      <button
+        class="nav__hamburger"
+        id="js-hamburger"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="js-mobile-menu"
+      >
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+      </button>
 
-	</body>
+    </div><!-- /nav__bar -->
+
+    <!-- ↓ EDIT: Mobile menu links (visible <680px, toggled by hamburger) -->
+    <ul class="nav__mobile-menu" id="js-mobile-menu" aria-hidden="true">
+      <li><a href="branding.html">Branding</a></li>
+      <li><a href="packaging.html" class="nav__link--active">Packaging</a></li>
+      <li><a href="print.html">Print &amp; Production</a></li>
+    </ul>
+
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HERO
+       ═══════════════════════════════════════════════════════════════ -->
+<header class="site-hero">
+
+  <p class="hero__tag">Packaging Design</p>
+
+  <h1 class="hero__title">
+    包裝<strong>設計</strong>
+  </h1>
+
+  <div class="hero__meta">
+    <span class="hero__count" id="js-photo-count">
+      Packaging Projects
+    </span>
+
+    <div class="hero__rule" aria-hidden="true"></div>
+
+    <p class="hero__desc">
+      從產品定位、視覺概念到包裝應用，打造兼具辨識度與實際製作需求的包裝設計。
+    </p>
+  </div>
+</header>
+
+<main class="gallery" id="js-gallery" aria-label="Packaging portfolio">
+
+  <!-- 01 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/01.png"
+       data-title="烏龍茶・糊底彩盒設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/01.png"
+         alt="烏龍茶糊底彩盒設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">烏龍茶・糊底彩盒設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>針對烏龍茶產品外包裝進行糊底彩盒設計，透過結構與視覺整合建立完整的包裝呈現。</p>
+    </div>
+  </div>
+
+  <!-- 02 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/02.png"
+       data-title="烏龍茶・糊底彩盒設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/02.png"
+         alt="烏龍茶糊底彩盒內襯設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">烏龍茶・糊底彩盒設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>針對烏龍茶產品外包裝進行糊底彩盒設計，透過結構與視覺整合建立完整的包裝呈現。</p>
+    </div>
+  </div>
+
+  <!-- 03 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/03.png"
+       data-title="烏龍茶・糊底彩盒設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/03.png"
+         alt="烏龍茶糊底彩盒內襯設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">烏龍茶・糊底彩盒設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>針對烏龍茶產品外包裝進行糊底彩盒設計，透過結構與視覺整合建立完整的包裝呈現。</p>
+    </div>
+  </div>
+
+  <!-- 04 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/04.jpg"
+       data-title="紅烏龍咖啡盒・系列包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/04.jpg"
+         alt="紅烏龍咖啡盒果香包裝設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">紅烏龍咖啡盒・系列包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以熱氣球與茶園為視覺主題，發展三款不同風味的紅烏龍咖啡盒包裝設計。</p>
+    </div>
+  </div>
+
+  <!-- 05 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/05.jpg"
+       data-title="紅烏龍咖啡盒・系列包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/05.jpg"
+         alt="紅烏龍咖啡盒果香花香包裝設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">紅烏龍咖啡盒・系列包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以熱氣球與茶園為視覺主題，發展三款不同風味的紅烏龍咖啡盒包裝設計。</p>
+    </div>
+  </div>
+
+  <!-- 06 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/06.jpg"
+       data-title="紅烏龍咖啡盒・系列包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/06.jpg"
+         alt="紅烏龍咖啡盒花香包裝設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">紅烏龍咖啡盒・系列包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以熱氣球與茶園為視覺主題，發展三款不同風味的紅烏龍咖啡盒包裝設計。</p>
+    </div>
+  </div>
+
+  <!-- 07 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/07.png"
+       data-title="島島柚子乾・禮盒包裝設計"
+       data-meta="Gift Box Packaging">
+    <img src="portfolio/packaging/07.png"
+         alt="島島柚子乾禮盒3D模擬"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">島島柚子乾・禮盒包裝設計</span>
+      <span class="gallery__caption-meta">Gift Box Packaging</span>
+      <p>以柚子與在地特色為發想，發展禮盒整體視覺與包裝設計，並透過 3D 模擬確認最終呈現效果。</p>
+    </div>
+  </div>
+
+  <!-- 08 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/08.jpg"
+       data-title="島島柚子乾・禮盒包裝設計"
+       data-meta="Gift Box Packaging">
+    <img src="portfolio/packaging/08.jpg"
+         alt="島島柚子乾禮盒設計面"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">島島柚子乾・禮盒包裝設計</span>
+      <span class="gallery__caption-meta">Gift Box Packaging</span>
+      <p>以柚子與在地特色為發想，發展禮盒整體視覺與包裝設計，並透過 3D 模擬確認最終呈現效果。</p>
+    </div>
+  </div>
+
+  <!-- 09 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/09.jpg"
+       data-title="島島柚子乾・禮盒包裝設計"
+       data-meta="Gift Box Packaging">
+    <img src="portfolio/packaging/09.jpg"
+         alt="島島柚子乾禮盒設計面"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">島島柚子乾・禮盒包裝設計</span>
+      <span class="gallery__caption-meta">Gift Box Packaging</span>
+      <p>以柚子與在地特色為發想，發展禮盒整體視覺與包裝設計，並透過 3D 模擬確認最終呈現效果。</p>
+    </div>
+  </div>
+
+  <!-- 10 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/10.jpg"
+       data-title="島島柚子乾・禮盒包裝設計"
+       data-meta="Gift Box Packaging">
+    <img src="portfolio/packaging/10.jpg"
+         alt="島島柚子乾禮盒設計面"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">島島柚子乾・禮盒包裝設計</span>
+      <span class="gallery__caption-meta">Gift Box Packaging</span>
+      <p>以柚子與在地特色為發想，發展禮盒整體視覺與包裝設計，並透過 3D 模擬確認最終呈現效果。</p>
+    </div>
+  </div>
+
+  <!-- 11 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/11.png"
+       data-title="永續・在地｜提袋設計提案"
+       data-meta="Packaging Proposal">
+    <img src="portfolio/packaging/11.png"
+         alt="永續在地提袋設計提案一"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">永續・在地｜提袋設計提案</span>
+      <span class="gallery__caption-meta">Packaging Proposal</span>
+      <p>以永續與在地為主題，發展兩款提袋視覺提案，透過不同圖像與構圖呈現品牌概念。</p>
+    </div>
+  </div>
+
+  <!-- 12 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/12.png"
+       data-title="永續・在地｜提袋設計提案"
+       data-meta="Packaging Proposal">
+    <img src="portfolio/packaging/12.png"
+         alt="永續在地提袋設計提案二"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">永續・在地｜提袋設計提案</span>
+      <span class="gallery__caption-meta">Packaging Proposal</span>
+      <p>以永續與在地為主題，發展兩款提袋視覺提案，透過不同圖像與構圖呈現品牌概念。</p>
+    </div>
+  </div>
+
+  <!-- 13 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/13.jpg"
+       data-title="大橋頭咖啡・咖啡盒包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/13.jpg"
+         alt="大橋頭咖啡盒包裝設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">大橋頭咖啡・咖啡盒包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以品牌特色發展咖啡盒包裝視覺，透過圖像與版面設計建立產品的整體形象。</p>
+    </div>
+  </div>
+
+  <!-- 14 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/14.jpg"
+       data-title="茶葉產品・提袋包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/14.jpg"
+         alt="茶葉產品提袋包裝設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">茶葉產品・提袋包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以熱氣球與茶園風景為主視覺，搭配重複書法字圖紋，打造具有茶文化與地方特色的提袋設計。</p>
+    </div>
+  </div>
+
+  <!-- 15 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/15.jpg"
+       data-title="寵物罐頭・系列標籤設計"
+       data-meta="Label Design">
+    <img src="portfolio/packaging/15.jpg"
+         alt="寵物罐頭系列標籤設計大罐"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">寵物罐頭・系列標籤設計</span>
+      <span class="gallery__caption-meta">Label Design</span>
+      <p>以系列化視覺系統發展寵物罐頭標籤，延伸不同尺寸與口味，建立一致且具辨識度的產品系列。</p>
+    </div>
+  </div>
+
+  <!-- 16 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/16.jpg"
+       data-title="寵物罐頭・系列標籤設計"
+       data-meta="Label Design">
+    <img src="portfolio/packaging/16.jpg"
+         alt="寵物罐頭系列標籤設計小罐"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">寵物罐頭・系列標籤設計</span>
+      <span class="gallery__caption-meta">Label Design</span>
+      <p>以系列化視覺系統發展寵物罐頭標籤，延伸不同尺寸與口味，建立一致且具辨識度的產品系列。</p>
+    </div>
+  </div>
+
+  <!-- 17 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/17.jpg"
+       data-title="津老酒漬柚 × 8C咖啡・禮盒袖套設計"
+       data-meta="Gift Box Sleeve Design">
+    <img src="portfolio/packaging/17.jpg"
+         alt="津老酒漬柚與8C咖啡禮盒袖套設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">津老酒漬柚 × 8C咖啡・禮盒袖套設計</span>
+      <span class="gallery__caption-meta">Gift Box Sleeve Design</span>
+      <p>為津老酒漬柚與 8C 咖啡包設計禮盒袖套，整合兩款商品的視覺元素，打造完整的聯合禮盒包裝。</p>
+    </div>
+  </div>
+
+  <!-- 18 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/18.jpg"
+       data-title="津老酒漬柚 × 長日咖啡・禮盒袖套設計"
+       data-meta="Gift Box Sleeve Design">
+    <img src="portfolio/packaging/18.jpg"
+         alt="津老酒漬柚長日咖啡與咖啡渣盤香禮盒袖套設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">津老酒漬柚 × 長日咖啡・禮盒袖套設計</span>
+      <span class="gallery__caption-meta">Gift Box Sleeve Design</span>
+      <p>為津老酒漬柚、長日咖啡與咖啡渣盤香設計禮盒袖套，整合三款商品的視覺元素，打造完整的聯合禮盒包裝。</p>
+    </div>
+  </div>
+
+  <!-- 19 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/19.jpg"
+       data-title="鳳梨酵素・盒裝包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/19.jpg"
+         alt="鳳梨酵素盒裝包裝3D模擬"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">鳳梨酵素・盒裝包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以產品特色發展鳳梨酵素盒裝視覺，並透過 3D 模擬呈現實際包裝效果，確認最終視覺呈現。</p>
+    </div>
+  </div>
+
+  <!-- 20 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/20.jpg"
+       data-title="綜合蔬果萃取粉・貼紙設計"
+       data-meta="Label Design">
+    <img src="portfolio/packaging/20.jpg"
+         alt="綜合蔬果萃取粉貼紙設計"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">綜合蔬果萃取粉・貼紙設計</span>
+      <span class="gallery__caption-meta">Label Design</span>
+      <p>以產品資訊與視覺識別為基礎，發展綜合蔬果萃取粉貼紙設計，建立清楚且具辨識度的產品視覺。</p>
+    </div>
+  </div>
+
+  <!-- 21 -->
+  <div class="gallery__item"
+       data-full="portfolio/packaging/21.jpg"
+       data-title="晨曦綠飲・盒裝包裝設計"
+       data-meta="Packaging Design">
+    <img src="portfolio/packaging/21.jpg"
+         alt="晨曦綠飲盒裝包裝3D模擬"
+         class="gallery__image"
+         loading="lazy" />
+    <div class="gallery__caption">
+      <span class="gallery__caption-title">晨曦綠飲・盒裝包裝設計</span>
+      <span class="gallery__caption-meta">Packaging Design</span>
+      <p>以產品定位發展晨曦綠飲盒裝視覺，並透過 3D 模擬呈現實際包裝效果，確認最終視覺呈現。</p>
+    </div>
+  </div>
+
+</main>
+  <!-- ═══════════════════════════════════════════════════════════════
+       LIGHTBOX  —  "Lightroom Mode"
+       This element is controlled by JavaScript below.
+       You do not need to edit this HTML.
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="lightbox" id="js-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+
+    <div class="lightbox__bar">
+      <span class="lightbox__counter" id="js-lb-counter" aria-live="polite"></span>
+      <button class="lightbox__close" id="js-lb-close" aria-label="Close photo viewer">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="lightbox__stage">
+
+      <button class="lightbox__nav lightbox__nav--prev" id="js-lb-prev" aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+
+      <!-- ↓ The <img> src is swapped by JS — do not edit src here -->
+      <img src="" alt="" class="lightbox__image" id="js-lb-image" />
+
+      <button class="lightbox__nav lightbox__nav--next" id="js-lb-next" aria-label="Next photo">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div class="lightbox__caption">
+      <p class="lightbox__caption-title" id="js-lb-title"></p>
+      <p class="lightbox__caption-meta"  id="js-lb-meta"></p>
+    </div>
+
+  </div><!-- /LIGHTBOX -->
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+
+    <div>
+      <!-- ↓ EDIT: Replace with your name / studio -->
+      <p class="footer__brand">EYE LINK / Art Design</p>
+      <p class="footer__credit">
+          <br>
+        © 2026 目結藝術設計有限公司（Eye Link Art Design CO., LTD.）All rights reserved.
+      </p>
+    </div>
+
+    <!-- ↓ EDIT: Update links to match your site pages -->
+    <ul class="footer__nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="branding.html">Branding</a></li>
+      <li><a href="packaging.html">Packaging</a></li>
+      <li><a href="print.html">Print &amp; Production</a></li>
+    </ul>
+
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       JAVASCRIPT  —  Lightroom Mode + Filter
+       You do not need to edit this block.
+       ═══════════════════════════════════════════════════════════════ -->
+  <script src="exhibit/tooplate-exhibit-script.js"></script>
+
+</body>
 </html>
